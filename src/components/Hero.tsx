@@ -1,5 +1,4 @@
 import profilePic from "../assets/profile_pic.jpeg";
-
 const Hero = () => {
   return (
     <section
