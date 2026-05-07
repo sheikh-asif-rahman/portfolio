@@ -1,10 +1,11 @@
 import profilePic from "../assets/profile_pic.jpeg";
+
 const Hero = () => {
   return (
-    <section
-      id="hero"
-      className="min-h-screen flex items-start justify-center px-4 pt-12 md:pt-16 bg-gradient-to-br from-white via-gray-50 to-gray-100"
-    >
+<section
+  id="hero"
+  className="scroll-mt-24 min-h-screen flex items-start justify-center px-4 pt-12 md:pt-16 bg-zinc-50"
+>
       <div className="max-w-5xl mx-auto w-full grid md:grid-cols-2 gap-6 md:gap-10 items-center">
         {/* 🔹 LEFT CONTENT */}
         <div className="text-center md:text-left order-2 md:order-1">
@@ -21,9 +22,10 @@ const Hero = () => {
             Software Engineer
           </h2>
 
-          <p className="mt-5 text-gray-600 text-sm md:text-base leading-relaxed max-w-md">
-            Building elegant solutions to complex problems with modern
-            technologies.
+          <p className="max-w-xl text-gray-500 text-base sm:text-lg leading-relaxed mx-auto lg:mx-0">
+            I specialize in creating modern full stack applications with
+            responsive design, scalable architecture, and seamless user
+            experiences using React, Node.js, and contemporary web technologies.
           </p>
 
           {/* Buttons */}

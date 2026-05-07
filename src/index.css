@@ -5,12 +5,17 @@
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 100px;
 }
 
 /* Global font + base styling */
 body {
-  @apply bg-white text-gray-800 antialiased;
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  @apply bg-zinc-50 text-gray-800 antialiased;
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    sans-serif;
 }
 
 /* Selection color */
