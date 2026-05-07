@@ -10,7 +10,7 @@ const Hero = () => {
         {/* 🔹 LEFT CONTENT */}
         <div className="text-center md:text-left order-2 md:order-1">
           <p className="text-blue-500 mb-3 text-sm font-medium tracking-wide">
-            Hello!! I'm
+            Hello!! I'm 
           </p>
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading font-semibold tracking-tight text-gray-900 leading-[1.1]">
