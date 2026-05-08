@@ -2,27 +2,7 @@
 
 import { FaGithub, FaLinkedin, FaFacebookF, FaWhatsapp } from "react-icons/fa";
 
-const socials = [
-  {
-    icon: <FaGithub />,
-    link: "https://github.com/",
-  },
 
-  {
-    icon: <FaLinkedin />,
-    link: "https://linkedin.com/",
-  },
-
-  {
-    icon: <FaFacebookF />,
-    link: "https://facebook.com/",
-  },
-
-  {
-    icon: <FaWhatsapp />,
-    link: "https://wa.me/",
-  },
-];
 
 const Footer = () => {
   return (
