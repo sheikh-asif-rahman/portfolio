@@ -35,3 +35,14 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
+
+@keyframes popupTimer {
+  from {
+    width: 100%;
+  }
+
+  to {
+    width: 0%;
+  }
+}
