@@ -369,9 +369,7 @@ const Contact = () => {
                 className="
                   group
                   w-full
-                  bg-gradient-to-r
-                  from-blue-600
-                  to-cyan-500
+                  bg-black
                   hover:scale-[1.02]
                   active:scale-[0.98]
                   text-white
