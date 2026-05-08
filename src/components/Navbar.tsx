@@ -1,5 +1,3 @@
-// components/Navbar.tsx
-
 import { useEffect, useState } from "react";
 
 const links = [
@@ -14,25 +12,25 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   // Smooth Scroll
-const handleScroll = (id: string) => {
-  const section = document.getElementById(id);
+  const handleScroll = (id: string) => {
+    const section = document.getElementById(id);
 
-  if (!section) return;
+    if (!section) return;
 
-  const navbarOffset = 90;
+    const navbarOffset = 90;
 
-  const top =
-    section.getBoundingClientRect().top +
-    window.scrollY -
-    navbarOffset;
+    const top =
+      section.getBoundingClientRect().top +
+      window.scrollY -
+      navbarOffset;
 
-  window.scrollTo({
-    top,
-    behavior: "smooth",
-  });
+    window.scrollTo({
+      top,
+      behavior: "smooth",
+    });
 
-  setOpen(false);
-};
+    setOpen(false);
+  };
 
   // Active Section on Scroll
   useEffect(() => {
@@ -66,10 +64,8 @@ const handleScroll = (id: string) => {
   return (
     <header className="fixed top-0 left-0 w-full z-50">
       <nav className="mx-auto max-w-6xl px-4 py-4">
-
         {/* Navbar */}
         <div className="flex items-center justify-between rounded-2xl border border-zinc-200 bg-zinc-50/80 px-6 py-3 shadow-md backdrop-blur-sm">
-
           {/* Logo */}
           <h1 className="text-lg font-semibold tracking-tight text-zinc-800">
             Sheikh Asif Rahman

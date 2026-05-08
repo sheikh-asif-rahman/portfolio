@@ -1,4 +1,4 @@
-// components/Card.tsx
+// components/project_card.tsx
 
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
@@ -7,7 +7,7 @@ interface Technology {
   icon: React.ReactNode;
 }
 
-interface CardProps {
+interface project_cardProps {
   image: string;
   title: string;
   description: string;
@@ -16,14 +16,14 @@ interface CardProps {
   codeLink: string;
 }
 
-const Card = ({
+const project_card = ({
   image,
   title,
   description,
   technologies,
   liveLink,
   codeLink,
-}: CardProps) => {
+}: project_cardProps) => {
   return (
     <div className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition-all duration-500 hover:-translate-y-1 hover:shadow-xl">
       
@@ -91,4 +91,4 @@ const Card = ({
   );
 };
 
-export default Card;
+export default project_card;

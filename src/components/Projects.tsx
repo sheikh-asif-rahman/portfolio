@@ -1,6 +1,6 @@
 // components/Projects.tsx
 
-import Card from "./Card";
+import Card from "./Project_Card";
 
 import { FaReact, FaPython, FaNodeJs, FaDatabase } from "react-icons/fa";
 
@@ -78,56 +78,6 @@ const projects = [
   },
 
   {
-    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
-    title: "Chat Application",
-    description: "Realtime messaging application with socket support.",
-    technologies: [
-      {
-        name: "Node",
-        icon: <FaNodeJs className="text-green-500" />,
-      },
-    ],
-    liveLink: "#",
-    codeLink: "#",
-  },
-
-  {
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
-    title: "Learning Platform",
-    description: "Online learning platform with courses and quizzes.",
-    technologies: [
-      {
-        name: "React",
-        icon: <FaReact className="text-cyan-500" />,
-      },
-      {
-        name: "Database",
-        icon: <FaDatabase className="text-orange-500" />,
-      },
-    ],
-    liveLink: "#",
-    codeLink: "#",
-  },
-
-  {
-    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
-    title: "Team Collaboration",
-    description: "Workspace collaboration tool for remote teams.",
-    technologies: [
-      {
-        name: "Node",
-        icon: <FaNodeJs className="text-green-500" />,
-      },
-      {
-        name: "React",
-        icon: <FaReact className="text-cyan-500" />,
-      },
-    ],
-    liveLink: "#",
-    codeLink: "#",
-  },
-
-  {
     image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
     title: "Developer Tools",
     description: "Collection of productivity tools for developers.",
@@ -144,10 +94,10 @@ const projects = [
 
 const Projects = () => {
   return (
-<section
-  id="projects"
-  className="scroll-mt-24 bg-zinc-50 px-4 py-20"
->
+    <section
+      id="projects"
+      className="scroll-mt-24 bg-zinc-50 px-4 py-10 md:py-14"
+    >
       <div className="mx-auto w-full max-w-[1900px]">
         {/* Heading */}
         <div className="mb-12 text-center">
